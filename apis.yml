@@ -1,9 +1,11 @@
+aid: curl
 name: cURL
 description: Command line tool and library for transferring data with URLs
-image: https://curl.se/logo/curl-logo.svg
-url: https://curl.se/
-created: '2024'
-modified: '2024'
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
 apis:
 - name: cURL Command Line Tool
   description: Command line tool for transferring data with URL syntax, supporting various protocols including HTTP, HTTPS, FTP, and more
@@ -60,8 +62,8 @@ apis:
   - URL Transfer
   - SDK
 maintainers:
-- FN: Daniel Stenberg
-  email: daniel@haxx.se
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 common:
 - type: Website
   url: https://curl.se/
