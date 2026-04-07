@@ -1,87 +1,92 @@
 aid: curl
 name: cURL
-description: Command line tool and library for transferring data with URLs
+description: >-
+  Command line tool and library for transferring data with URLs.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
 apis:
-- name: cURL Command Line Tool
-  description: Command line tool for transferring data with URL syntax, supporting various protocols including HTTP, HTTPS, FTP, and more
-  image: https://curl.se/logo/curl-logo.svg
-  humanURL: https://curl.se/
-  baseURL: https://curl.se/
-  properties:
-  - type: Documentation
-    url: https://curl.se/docs/
-  - type: Manual
-    url: https://curl.se/docs/manual.html
-  - type: Tutorial
-    url: https://curl.se/docs/tutorial.html
-  - type: Man Page
-    url: https://curl.se/docs/manpage.html
-  - type: How To
-    url: https://curl.se/docs/howto.html
-  - type: FAQ
-    url: https://curl.se/docs/faq.html
-  - type: GitHub
-    url: https://github.com/curl/curl
-  - type: Download
-    url: https://curl.se/download.html
-  - type: Changelog
-    url: https://curl.se/changes.html
-  tags:
-  - HTTP
-  - HTTPS
-  - FTP
-  - Command Line
-  - Data Transfer
-  - REST
-  - API Client
-- name: libcurl
-  description: Free and easy-to-use client-side URL transfer library supporting various protocols
-  image: https://curl.se/logo/curl-logo.svg
-  humanURL: https://curl.se/libcurl/
-  baseURL: https://curl.se/libcurl/
-  properties:
-  - type: Documentation
-    url: https://curl.se/libcurl/
-  - type: API Reference
-    url: https://curl.se/libcurl/c/
-  - type: Examples
-    url: https://curl.se/libcurl/c/example.html
-  - type: Bindings
-    url: https://curl.se/libcurl/bindings.html
-  - type: GitHub
-    url: https://github.com/curl/curl
-  tags:
-  - Library
-  - C
-  - HTTP Client
-  - URL Transfer
-  - SDK
+  - name: cURL Command Line Tool
+    description: >-
+      Command line tool for transferring data with URL syntax, supporting various
+      protocols including HTTP, HTTPS, FTP, and more.
+    image: https://curl.se/logo/curl-logo.svg
+    humanURL: https://curl.se/
+    baseURL: https://curl.se/
+    properties:
+      - type: Documentation
+        url: https://curl.se/docs/
+      - type: Manual
+        url: https://curl.se/docs/manual.html
+      - type: Tutorial
+        url: https://curl.se/docs/tutorial.html
+      - type: Man Page
+        url: https://curl.se/docs/manpage.html
+      - type: How To
+        url: https://curl.se/docs/howto.html
+      - type: FAQ
+        url: https://curl.se/docs/faq.html
+      - type: GitHub
+        url: https://github.com/curl/curl
+      - type: Download
+        url: https://curl.se/download.html
+      - type: Changelog
+        url: https://curl.se/changes.html
+    tags:
+      - HTTP
+      - HTTPS
+      - FTP
+      - Command Line
+      - Data Transfer
+      - REST
+      - API Client
+  - name: libcurl
+    description: >-
+      Free and easy-to-use client-side URL transfer library supporting various protocols.
+    image: https://curl.se/logo/curl-logo.svg
+    humanURL: https://curl.se/libcurl/
+    baseURL: https://curl.se/libcurl/
+    properties:
+      - type: Documentation
+        url: https://curl.se/libcurl/
+      - type: API Reference
+        url: https://curl.se/libcurl/c/
+      - type: Examples
+        url: https://curl.se/libcurl/c/example.html
+      - type: Bindings
+        url: https://curl.se/libcurl/bindings.html
+      - type: GitHub
+        url: https://github.com/curl/curl
+    tags:
+      - Library
+      - C
+      - HTTP Client
+      - URL Transfer
+      - SDK
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
-- type: Website
-  url: https://curl.se/
-- type: Support
-  url: https://curl.se/support.html
-- type: Mailing Lists
-  url: https://curl.se/mail/
-- type: Security
-  url: https://curl.se/dev/security.html
-- type: Blog
-  url: https://daniel.haxx.se/blog/
-- type: Books
-  url: https://everything.curl.dev/
-- type: License
-  url: https://curl.se/docs/copyright.html
+  - type: Website
+    url: https://curl.se/
+  - type: Support
+    url: https://curl.se/support.html
+  - type: Mailing Lists
+    url: https://curl.se/mail/
+  - type: Security
+    url: https://curl.se/dev/security.html
+  - type: Blog
+    url: https://daniel.haxx.se/blog/
+  - type: Books
+    url: https://everything.curl.dev/
+  - type: License
+    url: https://curl.se/docs/copyright.html
 tags:
-- HTTP
-- Command Line
-- Data Transfer
-- Open Source
-- Network Tools
+  - HTTP
+  - Command Line
+  - Data Transfer
+  - Open Source
+  - Network Tools
