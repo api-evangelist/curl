@@ -4,8 +4,7 @@ description: >-
   Command line tool and library for transferring data with URLs.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: 
-  https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
 apis:
@@ -36,13 +35,13 @@ apis:
       - type: Changelog
         url: https://curl.se/changes.html
     tags:
-      - HTTP
-      - HTTPS
-      - FTP
+      - API Client
       - Command Line
       - Data Transfer
+      - FTP
+      - HTTP
+      - HTTPS
       - REST
-      - API Client
   - name: libcurl
     description: >-
       Free and easy-to-use client-side URL transfer library supporting various protocols.
@@ -61,11 +60,11 @@ apis:
       - type: GitHub
         url: https://github.com/curl/curl
     tags:
-      - Library
       - C
       - HTTP Client
-      - URL Transfer
+      - Library
       - SDK
+      - URL Transfer
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
@@ -85,8 +84,8 @@ common:
   - type: License
     url: https://curl.se/docs/copyright.html
 tags:
-  - HTTP
   - Command Line
   - Data Transfer
-  - Open Source
+  - HTTP
   - Network Tools
+  - Open Source
