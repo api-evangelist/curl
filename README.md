@@ -1,28 +1,42 @@
 # cURL (curl)
-Command line tool and library for transferring data with URLs
 
-**URL:** [Visit APIs.json URL](https://curl.se/)
+cURL is a command-line tool and library for transferring data with URLs. Originally released in 1997 by Daniel Stenberg, cURL is the de facto standard tool used by developers for testing, automating, and scripting interactions with HTTP, HTTPS, FTP, and many other URL-based protocols.
 
-## Tags:
+This repository captures the APIs, developer tools, and machine-readable API artifacts for cURL.
 
- - HTTP, Command Line, Data Transfer, Open Source, Network Tools
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Open Source
+- **Position:** Tooling
+- **Access:** Public
+
+## Tags
+
+- API Client
+- Command Line
+- Data Transfer
+- FTP
+- HTTP
+- HTTPS
+- Library
+- Network Tools
+- Open Source
+- REST
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### cURL Command Line Tool
-Command line tool for transferring data with URL syntax, supporting various protocols including HTTP, HTTPS, FTP, and more
+
+The curl command-line tool transfers data to or from a server using URL syntax, supporting protocols including DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP, SMTPS, TELNET, TFTP, WS and WSS. It is widely used for API testing, automation, scripting, file uploads and downloads, and debugging HTTP exchanges.
 
 **Human URL:** [https://curl.se/](https://curl.se/)
-
-
-#### Tags:
-
- - HTTP, HTTPS, FTP, Command Line, Data Transfer, REST, API Client
 
 #### Properties
 
@@ -37,14 +51,10 @@ Command line tool for transferring data with URL syntax, supporting various prot
 - [Changelog](https://curl.se/changes.html)
 
 ### libcurl
-Free and easy-to-use client-side URL transfer library supporting various protocols
+
+libcurl is a free, easy-to-use, thread-safe, IPv6-compatible client-side URL transfer library written in C with a stable API and ABI. It supports the same broad set of protocols as the curl command-line tool and is embedded in operating systems, applications, and developer tools across nearly every platform.
 
 **Human URL:** [https://curl.se/libcurl/](https://curl.se/libcurl/)
-
-
-#### Tags:
-
- - Library, C, HTTP Client, URL Transfer, SDK
 
 #### Properties
 
@@ -66,6 +76,6 @@ Free and easy-to-use client-side URL transfer library supporting various protoco
 
 ## Maintainers
 
-**FN:** Daniel Stenberg
+**FN:** Kin Lane
 
-**Email:** daniel@haxx.se
+**Email:** kin@apievangelist.com
