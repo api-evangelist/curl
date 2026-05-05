@@ -1,0 +1,13 @@
+{
+  "repo": "curl",
+  "feeds": [
+    {
+      "source": "https://daniel.haxx.se/blog/",
+      "feed_url": "https://daniel.haxx.se/blog/feed/",
+      "saved": 10,
+      "title": "daniel.haxx.se"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:26:34Z"
+}
