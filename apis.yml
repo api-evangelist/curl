@@ -62,7 +62,7 @@ apis:
         url: https://github.com/curl/curl
       - type: Download
         url: https://curl.se/download.html
-      - type: Changelog
+      - type: ChangeLog
         url: https://curl.se/changes.html
   - aid: curl:libcurl
     name: libcurl
@@ -84,7 +84,7 @@ apis:
     properties:
       - type: Documentation
         url: https://curl.se/libcurl/
-      - type: API Reference
+      - type: APIReference
         url: https://curl.se/libcurl/c/
       - type: Examples
         url: https://curl.se/libcurl/c/example.html
