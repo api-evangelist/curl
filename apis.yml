@@ -96,6 +96,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-curl-project
   - type: Website
     url: https://curl.se/
   - type: Support
