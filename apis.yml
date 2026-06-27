@@ -88,7 +88,7 @@ apis:
         url: https://curl.se/libcurl/c/
       - type: Examples
         url: https://curl.se/libcurl/c/example.html
-      - type: Bindings
+      - type: SDKs
         url: https://curl.se/libcurl/bindings.html
       - type: GitHub
         url: https://github.com/curl/curl

@@ -5,6 +5,13 @@
       "source": "https://daniel.haxx.se/blog/feed/",
       "feed_url": "https://daniel.haxx.se/blog/feed/",
       "title": "",
+      "saved": 4,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/curl/curl/releases.atom",
+      "feed_url": "https://github.com/curl/curl/releases.atom",
+      "title": "",
       "saved": 1,
       "method": "feed"
     },
@@ -12,10 +19,10 @@
       "source": "https://curl.se/dev/security.html",
       "feed_url": "https://github.com/curl/curl/releases.atom",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 19,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 26,
+  "fetched": "2026-06-27T12:03:07Z"
 }
