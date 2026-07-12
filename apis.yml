@@ -96,6 +96,10 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/curl-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/curl-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-curl-project
   - type: Website
