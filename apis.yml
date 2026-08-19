@@ -35,7 +35,7 @@ tags:
   - REST
 created: '2024-01-01'
 modified: '2026-04-28'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
   - aid: curl:curl-cli
     name: cURL Command Line Tool
