@@ -39,7 +39,6 @@ tags:
   - Data Transfer
   - FTP
   - HTTP
-  - HTTPS
   - Library
   - Network Tools
   - Open-Source
@@ -71,6 +70,14 @@ apis:
     image: https://curl.se/logo/curl-logo.svg
     humanURL: https://curl.se/
     tags:
+      - API Client
+      - API Testing
+      - Command Line
+      - Data Transfer
+      - FTP
+      - HTTP
+      - REST
+    tags_raw:
       - API Client
       - API Testing
       - Command Line
