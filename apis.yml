@@ -10,15 +10,19 @@ description: >-
   operating systems, devices, and programming languages.
 url: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/apis.yml
 deliveryModel:
-  model: library
-  open_source: false
+  model: unknown
+  license_evidence:
+    repo: curl/curl
+    spdx: NOASSERTION
+    stars: 42925
+  open_source: unknown
   commercial: false
   callable_host: false
-  label: Library · distributed through package registries, no callable service
+  label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-unlicensed
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -41,7 +45,7 @@ tags:
   - HTTP
   - Library
   - Network Tools
-  - Open-Source
+  - Open Source
   - REST
 tags_raw:
   - API Client
@@ -54,6 +58,7 @@ tags_raw:
   - Network Tools
   - Open Source
   - REST
+  - Open-Source
 created: '2024-01-01'
 modified: '2026-04-28'
 specificationVersion: '0.23'
