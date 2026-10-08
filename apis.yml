@@ -142,6 +142,12 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: Plans
+    url: plans/curl-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/curl-rate-limits.yml
+  - type: FinOps
+    url: finops/curl-finops.yml
   - type: VulnerabilityDisclosure
     url: security/curl-vulnerability-disclosure.yml
   - type: DomainSecurity
